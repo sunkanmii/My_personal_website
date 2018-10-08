@@ -1,0 +1,195 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding:0;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffffe7;
+}
+.header{
+    background-color:rgba(241, 241, 241, 0.678);
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.705);
+}
+.header ul{
+    list-style-type: none;
+    display: inline-block;
+    float: right; 
+    margin: 4px;
+    padding: 0;
+}    
+.header ul li {
+    display: inline-block;
+    font-size: 15px;
+    padding: 17px 40px;
+}
+.header ul a{
+    padding: 5px 5px;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-delay: 200ms;
+    color: rgba(0, 0, 0, 0.801);
+}
+.header h3{
+    display:inline-block;
+    padding-left: 15px;
+    color:  rgba(0, 0, 0, 0.986);
+}
+.header ul a:hover{
+    color: rgba(0, 0, 0, 0.993);
+    border-bottom: 2px solid rgba(14, 14, 14, 0.623);
+}
+.home-image{
+    background-image: url("background-2426328_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+    border: 1px solid rgba(10, 10, 10, 0.685);
+}
+.home-image h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 45px;
+    padding: 240px 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+.mask{
+    background-color: #00000075;
+    height: auto;
+}
+.mask h1{
+    margin: 0;
+}
+#About img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.575);
+}
+#About h2{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 4px;
+    color: rgba(0, 0, 0, 0.767);
+}
+.paragraph
+{
+    margin: 35px 134px 70px 134px;
+}
+#About p{
+    text-align: center;
+    padding: 24px 23px 24px 23px;
+    width: fit-content;
+    color: rgba(17, 18, 20, 0.774);
+    border: 1px solid rgba(0, 0, 0, 0.767);
+}
+.Contact{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.767);
+    margin: 38px 0px 1px 50px;
+}
+.Contact h2{
+    text-align: left;
+    font-size: 30px;
+    padding: 15px;
+    margin-left: 4px;
+    color: rgba(0, 0, 0, 0.849);
+}
+.Contact p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.Contact .con{
+    font-size: 17px;
+    border-bottom: 2px solid rgba(24, 84, 161, 0.801);
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.767);
+    margin: 0;
+    width: fit-content;
+}
+.Contact-now a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 30px 0px 40px 42px;
+    padding: 13px 51px;
+    border: 1px solid rgba(0, 0, 0, 0.651);
+    border-radius: 41px;
+    color: rgba(255, 255, 255, 0.911);
+    background-color: rgba(38, 105, 192, 0.747);
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-delay: 200ms;
+}
+.Contact-now a:hover{
+    background-color: rgba(24, 84, 161, 0.801);
+    color: rgb(255, 255, 255);
+}
+.header2{
+    text-align: left;
+    padding: 16px 5px;
+    margin: 43px 32px 44px 32px;
+    font-size: xx-large;
+    color:  rgba(0, 0, 0, 0.938);
+}
+#thankyou{
+    text-align: left;
+    padding: 75px 45px;
+    font-size: xx-large;
+    color: rgba(0, 0, 0, 0.856);
+}
+input[type=text], emadd, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 14px 0;
+    display: inline-block;
+    border: 1px solid rgba(204, 204, 204, 0.781);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: auto;
+    background-color: rgba(14, 14, 15, 0.877);
+    color: white;
+    padding: 15px 61px;
+    margin: 18px 0;
+    border: none;
+    border-radius: 78px;
+    cursor: pointer;
+    margin-bottom: 35px;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-delay: 200ms;
+}
+input[type=submit]:hover {
+    color: rgba(248, 248, 248, 0.89);
+    background-color: rgba(0, 0, 0, 0.911);
+}
+.Contact-Me{
+    color: rgba(0, 0, 0, 0.767);
+    margin: 40px 0px 10px 30px; 
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.911);
+    color: aliceblue;
+    padding: 20px 90px;
+    text-align: center;
+}
+.footer2{
+    background-color: rgba(0, 0, 0, 0.911);
+    color: aliceblue;
+    padding: 20px 90px;
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+    text-align: center;
+}
